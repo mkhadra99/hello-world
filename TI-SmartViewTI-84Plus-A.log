@@ -1,0 +1,47 @@
+00000073 <I> <com.ti.eps.emu84.app.ApplicationMainForm> AppMain - NoSplash - app.nspire.silentActivation is: NOT_DEFINED
+00000075 <I> <SplashScreen> Progress:5% Validating software license...
+00000115 <I> <com.ti.eps.emu84.app.License> Loading license manager for: TI-SmartView84 ver:1.0
+00000394 <W> <STDERR> Jul 28, 2019 8:17:24 PM com.ti.eps.sda.vendor1.SDAVendor1Impl isGraceInstalled
+INFO: Grace License was not found
+00000393 <I> <com.ti.eps.sda.vendor1.SDAVendor1Impl> Grace License was not found
+00000405 <W> <STDERR> Jul 28, 2019 8:17:24 PM com.ti.eps.sda.vendor1.SDAVendor1Impl initialize
+INFO: Grace License not Found, loading local license
+00000404 <I> <com.ti.eps.sda.vendor1.SDAVendor1Impl> Grace License not Found, loading local license
+00000405 <I> <com.ti.eps.emu84.app.License> Loaded license manager...
+00000405 <I> <com.ti.eps.emu84.app.License> Acquiring license for: TI-SmartView84 ver:1.0
+00000410 <W> <STDERR> Jul 28, 2019 8:17:24 PM com.ti.eps.sda.vendor1.SDAVendor1Impl decodeLicense
+SEVERE: Properties : {rms.decode.library.name=./libdecod.dylib, rms.client.library.name=./liblssrv.dylib, rms.initialization.library.name=./liblsinit.dylib}
+00000409 <E> <com.ti.eps.sda.vendor1.SDAVendor1Impl> Properties : {rms.decode.library.name=./libdecod.dylib, rms.client.library.name=./liblssrv.dylib, rms.initialization.library.name=./liblsinit.dylib}
+00000471 <W> <STDERR> Jul 28, 2019 8:17:24 PM com.ti.eps.sda.vendor1.SDAVendor1Impl loadLicense
+INFO: Iterating each feature installed to detect the current license
+00000470 <I> <com.ti.eps.sda.vendor1.SDAVendor1Impl> Iterating each feature installed to detect the current license
+00000503 <E> <com.ti.eps.emu84.app.License> Found expired license:c18
+00000535 <I> <com.ti.eps.activation.jni.Activation> SDA jar Version:3,2,0,114
+00000536 <I> <com.ti.eps.activation.jni.Activation> SLAS lib Build Type:I
+00000539 <I> <com.ti.eps.activation.jni.Activation> loading slas-admin
+00000540 <I> <com.ti.eps.activation.jni.Activation> loaded slas-admin
+00000558 <E> <com.ti.eps.activation.utils.ActivationPreference> Backing store is unavailable:
+Synchronization failed for node '/Texas Instruments/TIActivationWizard/'
+00000590 <I> <com.ti.eps.emu84.app.License> launch UI - License folder:/Library/Application Support/TI-SmartView 84/license
+00000591 <I> <com.ti.eps.activation.jni.Activation> No proxy info set...
+00000614 <I> <com.ti.eps.activation.PingService> Checking if internet is available.
+00000963 <I> <com.ti.eps.activation.PingService> Internet connection found
+00003994 <I> <com.ti.eps.activation.client.ui.ClientAppWelcomePanel> trial left: 0, hasSubscription: false, Subs days: 0
+00003996 <W> <STDERR> Jul 28, 2019 8:17:28 PM com.ti.eps.sda.vendor1.SDAVendor1Impl loadLicense
+INFO: Iterating each feature installed to detect the current license
+00003996 <I> <com.ti.eps.sda.vendor1.SDAVendor1Impl> Iterating each feature installed to detect the current license
+00004292 <I> <com.ti.eps.activation.ui.LicensePanelDescriptor> Is About to HIDE : false
+00015914 <E> <com.ti.eps.activation.wizard.CustomWizard> returnCode on closing : 1
+00015914 <E> <com.ti.eps.activation.wizard.CustomWizard> ActivationStatus: false, AppId: SmartView, ExitCode: 0
+00015962 <W> <STDERR> Jul 28, 2019 8:17:40 PM com.ti.eps.sda.SDAUtil setSilentActivationFirstLaunch
+INFO: Setting activate.propertiesfalse
+00015961 <I> <com.ti.eps.sda.SDAUtil> Setting activate.propertiesfalse
+00016000 <E> <com.ti.eps.emu84.app.License> Activation wizard returned:1
+00016000 <E> <com.ti.eps.emu84.app.License> Exiting Activation unsuccessful
+00016000 <I> <com.ti.eps.emu84.app.License> Activation successful, Releasing license...
+00016000 <I> <com.ti.eps.emu84.app.License> Acquiring license for: TI-SmartView84 ver:1.0
+00016005 <W> <STDERR> Jul 28, 2019 8:17:40 PM com.ti.eps.sda.vendor1.SDAVendor1Impl loadLicense
+INFO: Iterating each feature installed to detect the current license
+00016004 <I> <com.ti.eps.sda.vendor1.SDAVendor1Impl> Iterating each feature installed to detect the current license
+00016006 <E> <com.ti.eps.emu84.app.License> Found expired license:c18
+00016006 <E> <com.ti.eps.emu84.app.License> Could not acquire license after successful activation, exiting
